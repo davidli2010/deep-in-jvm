@@ -14,6 +14,7 @@ https://time.geekbang.org/column/108
 
 ## Contents
 
-1. [Java代码是怎么运行的?](01-how_java_run.md)
+1. [Java代码是怎么运行的？](01-how_java_run.md)
 2. [Java基本类型](02-baisc_types.md)
 3. [JVM如何加载Java类？](03-how_jvm_load_class.md)
+4. [JVM如何执行方法调用？（上）](04-how_jvm_invoke_1.md)
