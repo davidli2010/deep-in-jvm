@@ -18,3 +18,4 @@ https://time.geekbang.org/column/108
 2. [Java基本类型](02-baisc_types.md)
 3. [JVM如何加载Java类？](03-how_jvm_load_class.md)
 4. [JVM如何执行方法调用？（上）](04-how_jvm_invoke_1.md)
+5. [JVM如何执行方法调用？（下）](05-how_jvm_invoke_2.md)
