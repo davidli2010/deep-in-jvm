@@ -21,6 +21,7 @@ https://time.geekbang.org/column/108
 7. [JVM如何实现反射](07-how_jvm_reflect.md)
 8. [JVM如何实现invokedynamic（上）](08-how_jvm_invoke_dynamic_1.md)
 9. [JVM如何实现invokedynamic（下）](09-how_jvm_invoke_dynamic_2.md)
+10. [Java对象的内存布局](10-memory_layout.md)
 
 ## Knowledge Framework
 
