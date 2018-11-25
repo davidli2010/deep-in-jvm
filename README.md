@@ -22,7 +22,3 @@ https://time.geekbang.org/column/108
 8. [JVM如何实现invokedynamic（上）](08-how_jvm_invoke_dynamic_1.md)
 9. [JVM如何实现invokedynamic（下）](09-how_jvm_invoke_dynamic_2.md)
 10. [Java对象的内存布局](10-memory_layout.md)
-
-## Knowledge Framework
-
-![知识框架图](images/jvm_knowledge_framework.jpg)
