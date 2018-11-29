@@ -24,3 +24,4 @@ https://time.geekbang.org/column/108
 10. [Java对象的内存布局](10-memory_layout.md)
 11. [垃圾回收（上）](11-GC_1.md)
 12. [垃圾回收（下）](12-GC_2.md)
+13. [Java内存模型](13-java_memory_model.md)
