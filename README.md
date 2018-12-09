@@ -27,3 +27,4 @@ https://time.geekbang.org/column/108
 13. [Java内存模型](13-java_memory_model.md)
 14. [JVM如何实现synchronized](14-how_jvm_implement_synchronized.md)
 15. [Java语法糖](15-java_syntax_sugar.md)
+16. [即时编译（上）](16-JIT_1.md)
