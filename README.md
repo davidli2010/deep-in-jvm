@@ -32,3 +32,4 @@ https://time.geekbang.org/column/108
 18. [即时编译器的中间表达形式](18-IR_of_JIT.md)
 19. [Java字节码](19-java_bytecode.md)
 20. [方法内联（上）](20-method_inline_1.md)
+21. [方法内联（下）](21-method_inline_2.md)
