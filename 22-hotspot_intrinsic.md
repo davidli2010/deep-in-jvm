@@ -1,0 +1,11 @@
+# HotSpot虚拟机的intrinsic
+
+在HotSpot虚拟机中，所有被注解@HotSpotIntrinsicCandidate标注的方法都是HotSpot intrinsic。对这些方法的调用，会被HotSpot虚拟机替换成高效的指令序列。而原本的方法实现则会被忽略掉。
+
+换句话说，HotSpot虚拟机将为标注了@HotSpotIntrinsicCandiate注解的方法额外维护一套高效实现。如果Java核心类库的开发者更改了原本的实现，那么虚拟机中的高效实现也需要进行相应的修改，以保证程序语义一致。
+
+这些高效实现通常依赖于具体的CPU指令，而这些CPU指令不好在Java源程序中表达。再者，换了一个体系架构，说不定就没有对应的CPU指令，也就无法进行intrinsic优化了。
+
+具体来说，intrinsic 的实现有两种。一是不大常见的桩，可以在解释执行或者即时编译生成的代码中使用。二是特殊的IR节点。即时编译器将在方法内联过程中，将对intrinsic的调用替换为这些特殊的IR节点，并最终生成指定的CPU指令。
+
+HotSpot虚拟机定义了三百多个intrinsic。其中比较特殊的有Unsafe类的方法，基本上使用java.util.concurrent包便会间接使用到Unsafe类的intrinsic。除此之外，String类和Arrays类中的intrinsic也比较特殊。即时编译器将为之生成非常高效的SIMD指令。
