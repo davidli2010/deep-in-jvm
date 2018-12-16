@@ -37,3 +37,4 @@ https://time.geekbang.org/column/108
 23. [逃逸分析](23-escape_analysis.md)
 24. [字段访问相关优化](24-field_access_optimization.md)
 25. [循环优化](25-loop_optimization.md)
+26. [向量化](26-vectorization.md)
