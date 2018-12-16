@@ -43,3 +43,4 @@ https://time.geekbang.org/column/108
 29. [基准测试框架JMH（下）](29-jmh_2.md)
 30. [JVM监控及诊断工具（命令行篇）](30-jvm_monitor_toolkit.md)
 31. [JVM监控及诊断工具（GUI篇）](31-jvm_monitor_gui.md)
+32. [JNI的运行机制](32-jni.md)
