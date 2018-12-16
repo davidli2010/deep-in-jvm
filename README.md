@@ -35,3 +35,4 @@ https://time.geekbang.org/column/108
 21. [方法内联（下）](21-method_inline_2.md)
 22. [HotSpot虚拟机的intrinsic](22-hotspot_intrinsic.md)
 23. [逃逸分析](23-escape_analysis.md)
+24. [字段访问相关优化](24-field_access_optimization.md)
