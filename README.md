@@ -36,3 +36,4 @@ https://time.geekbang.org/column/108
 22. [HotSpot虚拟机的intrinsic](22-hotspot_intrinsic.md)
 23. [逃逸分析](23-escape_analysis.md)
 24. [字段访问相关优化](24-field_access_optimization.md)
+25. [循环优化](25-loop_optimization.md)
